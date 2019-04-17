@@ -1,3 +1,15 @@
+/*
+Example of STM8 using Arduino IDE (sduino) Programming
+by : 2black0@gmail.com
+
+Connection :
+STM8     --- USB Serial
+RX (D15) --- TX
+TX (D14) --- RX
+
+*/
+
+
 signed int x = 0;
 char *nilai="Nilai X =";
 int timer;
