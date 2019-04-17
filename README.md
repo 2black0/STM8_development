@@ -6,10 +6,10 @@ This is documentation for project developing STM8 using Arduino IDE and stm8flas
 ## Preparation
 * Hardware
   * STM8S103F3P6 Mini Dev Board
-  ![STM8S103F3P6](/Pics/STM8 Minimum System Development Board.JPG)
   <img src="/Pics/STM8 Minimum System Development Board.JPG" width="500" height="375">
   
   * ST-Link V2
+  <img src="/Pics/sta-2.jpg" width="450 height="465">
  
 * Software 
   * Arduino IDE for STM8 Board - sduino : https://github.com/tenbaht/sduino
