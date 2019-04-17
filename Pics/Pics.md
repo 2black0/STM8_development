@@ -1,1 +1,1 @@
-This folder for storing the picture content
+# This folder for storing the picture content
