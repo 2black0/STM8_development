@@ -55,11 +55,14 @@ Now you should find a new entry STM8S Boards in the list at Tools->Board:...
 only for Linux Ubuntu
 Download stm8flash and depedencies
 > $ git clone https://github.com/vdudouyt/stm8flash.git
+
 > $ sudo apt-get install libusb-1.0-0-dev
 
 Compile and Install stm8flash Tool
 > $ cd stm8flash
+
 > $ make
+
 > $ sudo make install
 
 Create 99-stlinkv2.rules
