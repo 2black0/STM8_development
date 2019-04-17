@@ -114,3 +114,10 @@ Command for uploading the hex file into STM8
 > $ stm8flash -c stlinkv2 -p stm8s103f3 -s flash -w /tmp/arduino_build_10931/Blink.ino.hex 
 
 where /tmp/arduino_build_10931/Blink.ino.hex is the location of compiled file using Arduino IDE
+
+## Example
+List of example
+
+[1. LCD 16x2](https://github.com/2black0/STM8_development/blob/master/Example/stm8_lcd.ino)
+
+[2. Hardware Serial](https://github.com/2black0/STM8_development/blob/master/Example/stm8_serial.ino)
