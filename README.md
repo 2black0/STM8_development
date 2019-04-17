@@ -107,4 +107,10 @@ SUBSYSTEMS=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="374b", \
 The last step is 
 > $ echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="3748", MODE="0666"' | sudo tee /etc/udev/rules.d/99-stlinkv2.ruleS > /dev/null
 
+Unlocking a write protected MCU
+> $ stm8flash -cstlinkv2 -pstm8s103?3 -u
 
+Command for uploading the hex file into STM8
+> $ stm8flash -c stlinkv2 -p stm8s103f3 -s flash -w /tmp/arduino_build_10931/Blink.ino.hex 
+
+where /tmp/arduino_build_10931/Blink.ino.hex is the location of compiled file using Arduino IDE
